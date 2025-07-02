@@ -1,13 +1,10 @@
 ---
 # Display name
-title: 吳健雄
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+title: Xiequn Wang
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Xiequn
+last_name: Wang
 
 # Status emoji
 status:
@@ -17,156 +14,103 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Director of Cloud Infrastructure
+role: Master's student in Computer Science
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: Southern University of Science and Technology (SUSTech)
+    url: https://www.sustech.edu.cn/en/
 
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:wangxiequn@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://github.com/wangxiequn
+  - icon: academicons/google-scholar # Assuming you have a profile, otherwise remove
+    url: https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=hzPgxIAAAAAJ
+  - icon: academicons/cv
+    url: uploads/resume.pdf
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Master in Computer Science
+    institution: Southern University of Science and Technology (SUSTech)
+    date_start: 2023-09-01
+    date_end: 2026-06-01
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      Supervisor: Prof. Yu Zhang 
+  - area: B.Eng. in Computer Science and Technology
+    institution: Southern University of Science and Technology (SUSTech)
+    date_start: 2019-09-01
+    date_end: 2023-06-01
     summary: |
-      GPA: 3.8/4.0
+      Overall GPA: 3.71/4.0 
+      Supervisor: Prof. Yu Zhang 
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Teaching Assistant (CSE5001 Advanced Artificial Intelligence)
+    company_name: SUSTech
     company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    date_start: 2024-02-01
+    date_end: 2024-06-01
+    summary: ''
+  - position: Teaching Assistant (CS201 Discrete Mathematics)
+    company_name: SUSTech
+    date_start: 2023-09-01
+    date_end: 2024-01-01
+    summary: ''
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: Python (PyTorch, TensorFlow)
         description: ''
-        percent: 80
+        percent: 90
         icon: devicon/python
-      - name: RStudio
+      - name: C++ / Java
         description: ''
-        percent: 100
-        icon: devicon/rstudio
-      - name: PyTorch
+        percent: 75
+        icon: devicon/cplusplus
+      - name: CUDA / Spark / Docker
         description: ''
-        percent: 40
-        icon: devicon/pytorch
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+        percent: 70
+        icon: devicon/docker
+  - name: Languages
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
+      - name: Chinese (Native)
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        icon: message
+      - name: English (Fluent)
         description: ''
-        percent: 80
-        icon: camera
+        percent: 85
+        icon: language
 
 languages:
-  - name: English
-    percent: 100
   - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    percent: 100
+  - name: English
+    percent: 85
 
 # Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+  - title: First-class Scholarship for Postgraduate Students
+    date: '2024-09-01'
+    awarder: SUSTech
+    summary: ''
+  - title: Excellent Student in Zhixin College
+    date: '2020-04-01'
+    awarder: SUSTech
+    summary: ''
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
+I am a Master's student at Southern University of Science and Technology (SUSTech), supervised by Professor Yu Zhang. My research focuses on improving the efficiency and adaptability of large-scale Al models, particularly in Large Language Models (post-training and PEFT) and continual learning.
+
+My publications include:
+
+- **PLAN: Proactive Low-Rank Allocation for Continual Learning.** Accepted by ICCV 2025.
+- **Come Together, But Not Right Now: A Simple Strategy to Boost Low-Rank Adaptation.** Accepted by ICML 2025.
+- **Nemesis: Normalizing the Soft-prompt Vectors of Vision-Language Models.** ICLR 2024 (Spotlight).
+- **Image Sorting as a Probe of Physical Prior Encoding in Vision Models.** Under review.
