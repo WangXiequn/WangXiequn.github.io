@@ -113,4 +113,3 @@ My publications include:
 - **PLAN: Proactive Low-Rank Allocation for Continual Learning.** Accepted by ICCV 2025.
 - **Come Together, But Not Right Now: A Simple Strategy to Boost Low-Rank Adaptation.** Accepted by ICML 2025.
 - **Nemesis: Normalizing the Soft-prompt Vectors of Vision-Language Models.** ICLR 2024 (Spotlight).
-- **Image Sorting as a Probe of Physical Prior Encoding in Vision Models.** Under review.
